@@ -1,0 +1,90 @@
+
+//                if (platformArrayList.get(k).plat.intersects(chara.rekt.getBoundsInParent())) {
+////                        chara.temp = false;
+////                        chara.temp2 = true;
+//                        //character stays there hehe
+//                    if(platformArrayList.get(k).getChoic()==1){
+//
+//
+//
+//                        if(counter[0]==3){
+//                            k+=1;
+//                        }
+////                        System.out.println("tits");
+//                    }
+//                }
+//                else {
+//                    chara.gravity();
+//                }
+//
+//                if(!contactWithPlatform) {
+//
+//                    chara.gravity(); //gravity
+//                    System.out.println(chara.getCurrentposition());
+//
+//                    for(int k=0;k<100;k++){
+//                        if(chara.getCurrentposition()==platformArrayList.get(k).plat.getX()){
+//                            contactWithPlatform=true;
+//
+//                        }
+//
+//                    }
+//
+//
+//                }
+
+//        Timeline fiveSecondsWonder = new Timeline(new KeyFrame(Duration.millis(1000), new EventHandler<ActionEvent>() {
+//            @Override
+//            public void handle(ActionEvent event) {
+//                for (int k = 0; k < 100; k++){
+//
+//                    if (chara.imageView.getX() >= platformArrayList.get(k).imageVie.getX() && chara.imageView.getX() <= platformArrayList.get(k).imageVie.getX() + 380 && chara.imageView.getY() >= platformArrayList.get(k).imageVie.getY()+134 && platformArrayList.get(k).getChoic() == 1) {
+//                        chara.trnaslatecharachterup();
+//                        break;
+////                        System.out.println("Raghav Gay");
+//
+////                        chara.translatt.stop();
+//                    } else if (chara.imageView.getX() >= platformArrayList.get(k).imageVie.getX() && chara.imageView.getX() <= platformArrayList.get(k).imageVie.getX() + 438 && chara.imageView.getY() >= platformArrayList.get(k).imageVie.getY()+207 && platformArrayList.get(k).getChoic() == 2) {
+//                        chara.trnaslatecharachterup();
+//                        break;
+////                        System.out.println("Raghav Gay");
+//
+////                        chara.translatt.stop();
+//
+//                    } else if (chara.imageView.getX() >= platformArrayList.get(k).imageVie.getX() && chara.imageView.getX() <= platformArrayList.get(k).imageVie.getX() + 208 && chara.imageView.getY() >= platformArrayList.get(k).imageVie.getY()+124 && platformArrayList.get(k).getChoic() == 3) {
+//                        chara.trnaslatecharachterup();
+//                        break;
+////                        System.out.println("Raghav Gay");
+//
+////                        chara.translatt.stop();
+//                    } else {
+//                        chara.translatecharachterdown();
+////                        System.out.println("Sun is a star");
+//
+//
+//                    }
+//                }
+//            }
+//        }));
+//        for(int k=0;k<100;k++){
+//            orc o = new orc(1,this);
+//            ImageView s=o.imageVie;
+//            orcArrayList.add(o);
+//            root.getChildren().add(s);
+//        }
+/        for(int j=0;j<100;j++){
+//            if(chara.rekt.getBoundsInParent().intersects(platformArrayList.get(j).plat.getBoundsInParent()) ){
+//                fiveSecondsWonder.setDelay(Duration.millis(500));
+//            }
+if(
+                    .statusProperty().addListener(new ChangeListener<Animation.Status>() {
+
+                        @Override
+                        public void changed(ObservableValue<? extends Animation.Status> observableValue,
+                                            Animation.Status oldValue, Animation.Status newValue) {
+                            if(newValue== Animation.Status.RUNNING)
+                                System.out.println("Animation is still running");
+
+                        }
+                    });
+                    ){
